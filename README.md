@@ -25,7 +25,7 @@ Our original dataframe had 1,785,997 rows of distinct Amazon reviews, including 
 
 The original dataframe includes a customer/reviewer id number, product data, information about the review (including helpful/total votes by other customers), and a column of boolean data ('Y' or 'N') to indicate which reviews are part of the Vine program. This dataframe was distilled to just a few headings for our analysis, including: review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase. We limited our analysis to reviews with a minimum equal to or greater than 20 votes to focus on reviews most likely to be helpful. Further, we ran a simple calculation comparing helpful votes to total votes and filtered out any reviews with less than 50% of votes specified as helpful.
 
-![Vine_Percents_DF]()
+![Vine_Percents_DF](https://github.com/ozloty06/PySpark_Amazon-Vine-Analysis/blob/main/Vine_Percents.png)
 
 Counts From Filtered Dataframe:
 ------------------------------------------------------------------------
@@ -39,7 +39,7 @@ Counts From Filtered Dataframe:
 ------------------------------------------------------------------------
 **15% more 5 star rated paid reviews vs. unpaid reviews**
 
-![Final_DF]()
+![Final_DF](https://github.com/ozloty06/PySpark_Amazon-Vine-Analysis/blob/main/Final_DF.png)
 
 
 #### Additional Results
